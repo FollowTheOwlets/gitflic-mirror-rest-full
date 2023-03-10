@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(cors());
 app.use(helmet());
 
-const PORT = 3080;
+const PORT =  process.env.PORT || 3080;
 
 app.get('/', Service.work);
 app.get('/help', Service.help);
