@@ -1,13 +1,11 @@
 import express from 'express';
 import cors from 'cors';
-import helmet from 'helmet';
 import {Service} from "./service.js";
 
 const app = express();
 
 app.use(express.json());
 app.use(cors());
-app.use(helmet());
 
 const PORT =  process.env.PORT || 3080;
 
