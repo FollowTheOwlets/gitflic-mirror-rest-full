@@ -47,7 +47,7 @@ class Repository {
     }
 
     static update(id, info) {
-        Repository.infoDB[id] = info;
+        Repository.infoDB[id + 1] = info;
     }
 
     static getDB() {
