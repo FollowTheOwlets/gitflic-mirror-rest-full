@@ -48,7 +48,7 @@ class Service {
         const infoObject = {
             id: Service.generateId(),
             info: body.info,
-            date: new Date().toLocaleDateString()
+            date: new Date().toLocaleDateString('ru-RU')
         };
         Repository.append(infoObject);
         res.status(201).json(infoObject).end();
