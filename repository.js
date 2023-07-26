@@ -7,7 +7,7 @@ class Repository {
                 login: "19000168",
                 password: "ertysd89"
             },
-            date: "Fri Mar 10 2023 03:06:21"
+            date: "01.05.2021"
         },
         {
             id: 2,
@@ -16,7 +16,7 @@ class Repository {
                 login: "2000090",
                 password: "setr_yu7"
             },
-            date: "Fri Mar 10 2023 03:06:21"
+            date: "14.05.2022"
         },
         {
             id: 3,
@@ -25,7 +25,7 @@ class Repository {
                 login: "2000149",
                 password: "po9065rdgw"
             },
-            date: "Fri Mar 10 2023 03:06:21"
+            date: "25.06.2013"
         },
         {
             id: 4,
@@ -34,7 +34,7 @@ class Repository {
                 login: "2100110",
                 password: "asdfghbnm0"
             },
-            date: "Fri Mar 10 2023 03:06:21"
+            date: "25.05.2022"
         }
     ];
 
